@@ -2,10 +2,10 @@ import type { TaskKey } from '@/lib/site-config'
 
 export const siteContent = {
   navbar: {
-    tagline: 'Image and profile platform',
+    tagline: 'Premium image and profile network',
   },
   footer: {
-    tagline: 'Visual posts, creators, and discoverable profiles',
+    tagline: 'Curated visuals and identity-led profiles',
   },
   hero: {
     badge: 'Visual board studio',
@@ -29,13 +29,13 @@ export const siteContent = {
   },
   home: {
     metadata: {
-      title: 'Stories, visuals, and discoverable content',
+      title: 'Premium image sharing and profile discovery',
       description:
-        'Explore articles, images, listings, and curated posts through a cleaner reading-first experience.',
-      openGraphTitle: 'Stories, visuals, and discoverable content',
+        'Discover premium galleries, creator profiles, and visual stories on linedesine.com.',
+      openGraphTitle: 'Premium image sharing and profile discovery',
       openGraphDescription:
-        'Discover articles, visual posts, and connected content through a calmer reading-first experience.',
-      keywords: ['story platform', 'article site', 'visual content', 'content discovery'],
+        'Browse image collections, profile highlights, and visual posts with a premium minimal interface.',
+      keywords: ['image sharing', 'creator profiles', 'visual discovery', 'linedesine.com'],
     },
     introBadge: 'About the platform',
     introTitle: 'Built for reading, browsing, and connecting different kinds of content.',

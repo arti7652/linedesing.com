@@ -125,7 +125,7 @@ export async function TaskListPage({ task, category }: { task: TaskKey; category
             <div className={`rounded-[2rem] p-7 shadow-[0_24px_70px_rgba(15,23,42,0.07)] ${ui.panel}`}>
               <div className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.24em] opacity-70"><Icon className="h-4 w-4" /> {taskConfig?.label || task}</div>
               <h1 className="mt-4 text-4xl font-semibold tracking-[-0.04em] text-foreground">{taskConfig?.description || 'Latest posts'}</h1>
-              <p className={`mt-4 max-w-2xl text-sm leading-7 ${ui.muted}`}>Built with a cleaner scan rhythm, stronger metadata grouping, and a structure designed for business discovery rather than editorial reading.</p>
+              <p className={`mt-4 max-w-2xl text-sm leading-7 ${ui.muted}`}>Designed for quick visual scanning with cleaner grouping and premium spacing so each card is easier to evaluate at a glance.</p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href={taskConfig?.route || '#'} className={`inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold ${ui.button}`}>Explore results <ArrowRight className="h-4 w-4" /></Link>
                 <Link href="/search" className={`inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold ${ui.soft}`}>Open search</Link>
@@ -176,7 +176,7 @@ export async function TaskListPage({ task, category }: { task: TaskKey; category
                 <Icon className="h-3.5 w-3.5" /> Visual feed
               </div>
               <h1 className="mt-5 text-5xl font-semibold tracking-[-0.05em]">{taskConfig?.description || 'Latest posts'}</h1>
-              <p className={`mt-5 max-w-2xl text-sm leading-8 ${ui.muted}`}>This surface leans into stronger imagery, larger modules, and more expressive spacing so visual content feels materially different from reading and directory pages.</p>
+              <p className={`mt-5 max-w-2xl text-sm leading-8 ${ui.muted}`}>This visual lane emphasizes immersive media, quieter metadata, and larger modules so image content has a distinctly premium browsing rhythm.</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className={`min-h-[220px] rounded-[2rem] ${ui.panel}`} />
@@ -192,7 +192,7 @@ export async function TaskListPage({ task, category }: { task: TaskKey; category
               <div className={`min-h-[240px] rounded-[2rem] ${ui.soft}`} />
               <div>
                 <p className={`text-xs uppercase tracking-[0.3em] ${ui.muted}`}>{taskConfig?.label || task}</p>
-                <h1 className="mt-3 text-4xl font-semibold tracking-[-0.05em] text-foreground">Profiles with stronger identity, trust, and reputation cues.</h1>
+                <h1 className="mt-3 text-4xl font-semibold tracking-[-0.05em] text-foreground">Profiles with stronger identity framing and creator credibility cues.</h1>
                 <p className={`mt-5 max-w-2xl text-sm leading-8 ${ui.muted}`}>This layout prioritizes the person or business surface first, then lets the feed continue below without borrowing the same visual logic used by articles or listings.</p>
               </div>
             </div>
@@ -219,7 +219,7 @@ export async function TaskListPage({ task, category }: { task: TaskKey; category
           <section className="mb-12 grid gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
             <div>
               <p className={`text-xs uppercase tracking-[0.3em] ${ui.muted}`}>{taskConfig?.label || task}</p>
-              <h1 className="mt-3 text-4xl font-semibold tracking-[-0.05em] text-foreground">Curated resources arranged more like collections than a generic post feed.</h1>
+              <h1 className="mt-3 text-4xl font-semibold tracking-[-0.05em] text-foreground">Curated resources arranged like intentional collections, not a repeated feed template.</h1>
               <p className={`mt-5 max-w-2xl text-sm leading-8 ${ui.muted}`}>Bookmarks, saved resources, and reference-style items need calmer grouping and lighter metadata. This variant gives them that separation.</p>
             </div>
             <div className={`rounded-[2rem] p-6 ${ui.panel}`}>
